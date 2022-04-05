@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(37, 79, 69);
+  color: white;
+  padding: 0 5%;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 5%;
+}
+.nav-links a:visited {
+  color: white;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  transition: all;
+}
